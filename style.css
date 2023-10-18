@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+:root{
+    font-size: 62.5%;
+
+    --color-100:#0ea8dc;
+    --color-200:rgba(255, 255, 255, 0.20);
+    --color-300:#202024;
+    --color-400:#121214;
+}
+
+body{
+        font-size: 1.6rem;
+}
+
+
+.container{
+    max-width: 430px;
+}
+header{
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    gap: 2.6rem;
+
+    height: 7.2rem;
+    padding: 1.2rem 2.8rem;
+
+    background-color: var(--color-100);
+}
+
+section img{
+    max-width: 100%;
+}
+
