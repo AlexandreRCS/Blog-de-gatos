@@ -17,15 +17,23 @@
 }
 
 body{
-        font-size: 1.6rem;
+    font-size: 1.6rem;
+        
+}
+
+#app{
+    display: grid;
+    grid-template-rows: max-content 1fr max-content;
+    height: 100vh;
 }
 
 
 .container{
-    max-width: 430px;
+    border: 2px solid red;
 }
+
+
 header{
-    overflow: hidden;
     display: flex;
     align-items: center;
     gap: 2.6rem;
