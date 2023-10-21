@@ -78,23 +78,27 @@ section h1{
     font-weight: 900;
     line-height: 3.8rem;
     padding-top: 3.2rem;
+    margin-left: 2.2rem;
 }
 
 main p{
     line-height: 2.6rem;
+    padding: 0px 2.2rem  0px;
 }
 
-main img{
-    max-width: 100%;
+section > img{
+    width: 100%;
     object-fit: cover;
 }
 
 .fedback{
+    height: max-content;
     margin: 1.3rem 0px 3.1rem;
+    margin-left: 2.2rem;
 }
 
 main section{
-    padding: 0px 2.6rem 0px 2.2rem ;
+    
 }
 
 section h2{
@@ -102,6 +106,7 @@ section h2{
     font-weight: 600;
     line-height: 3.8rem;
     margin: 3.4rem 0px 3.2rem;
+    padding-left: 3.2rem;
 }
 
 article p{
@@ -110,6 +115,7 @@ article p{
 }
 
 section ul{
+    padding: 0px 2.6rem 0px 2.2rem ;
     display: flex;
     flex-direction: column;
     gap: 3.2rem;
@@ -143,3 +149,26 @@ footer p {
     font-weight: 600;
 }
 
+
+@media (min-width:930px) {
+
+    #app{
+        
+    }
+
+    main .container {
+        max-width: 1700px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 4rem 5rem;
+        row-gap: 3.4rem;
+    }
+
+     section{
+        max-width: 800px;
+    }
+
+
+
+}
